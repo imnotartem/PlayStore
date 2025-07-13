@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart - PlayStore</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+    <body>
+    <div id="checkout-window" class="checkout-window">
+        <div class="checkout-header">
+        <span class="checkout-back" id="closeCheckout">&#8592;</span>
+        <span class="checkout-title">CHECKOUT</span>
+        <span class="checkout-close" id="checkoutCloseX">&times;</span>
+    </div>
+    <div class="checkout-content">
+        <h3>Select a payment method</h3>
+        <div class="checkout-methods">
+            <a class="checkout-method" href="https://en.wikipedia.org/wiki/Apple_Pay" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Pay" class="checkout-icon">
+                <span>Apple Pay</span>
+                <span class="checkout-fee">$0 Fee</span>
+            </a>
+            <a class="checkout-method" href="https://en.wikipedia.org/wiki/Google_Pay" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google Pay" class="checkout-icon">
+                <span>Google Pay</span>
+                <span class="checkout-fee">$0 Fee</span>
+            </a>
+            <a class="checkout-method" href="https://en.wikipedia.org/wiki/Visa_Inc." target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" class="checkout-icon">
+                <span>Visa/Mastercard</span>
+                <span class="checkout-fee">3% Fee</span>
+            </a>
+            <a class="checkout-method" href="https://en.wikipedia.org/wiki/Bitcoin" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="Bitcoin" class="checkout-icon">
+                <span>Bitcoin</span>
+                <span class="checkout-fee">2% Fee</span>
+            </a>
+</div>
+        <button id="confirmCheckout" class="checkout-confirm">Confirm Payment</button>
+    </div>
+    </div>
+        <header>
+        <h1 class="main-title">PlayStore</h1>
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+        </header>
+        <main>
+            <div class = "cart-container">
+                <h1>Shopping Cart</h1>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <p>Total: <span id="total-price">0</span> USD</p>
+                    <button class="cart-button">Checkout</button>
+                </div>
+            </div>
+        </div>          
+        
+        
+        </main>
+        <footer>
+            <p>© 2022 PlayStore</p>
+            <p>Contact us:</p>
+            <p>Email: playstore@gmail.com</p>
+            <p>Phone: +3806611111111</p>
+            <p>Follow us on:</p>
+            <p>Instagram: play_store</p>
+            <p>Twitter: @playstore</p>
+            <p>Tiktok: @playstore</p>
+            <p>All rights reserved</p>
+        </footer>
+    </body>
+</html>
